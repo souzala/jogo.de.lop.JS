@@ -35,6 +35,7 @@ function draw() {
     background(0);
   
 // Desenho do Objeto e Movimentação//    
+  
     ellipse(x,y,2*raioP,2*raioP);
     if(keyIsDown(RIGHT_ARROW)) {
       x=x+5;
@@ -75,7 +76,9 @@ function draw() {
       vxo[i]= -random(1000);
       }
     }
+  
 //Parte de Exposição//
+  
  fill(0, 100, 100);
   textSize(18);
   text('Vidas: '+vidas, 10, 30);
